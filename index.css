@@ -1,0 +1,165 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: fantasy;
+    
+}
+body{
+    scrollbar-color: dimgrey;
+    background-color: #000;
+}
+
+p{
+  font-size: large;
+}
+
+
+
+a{
+  color: #f5f5f5;
+}
+
+.hero{
+    min-height:95vh;
+    width: 100%;
+    background-color: #000;
+    background-image: url(images/game\ boy\ gif.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    color: #fff;
+    padding: 0 8%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px 0;
+}
+
+
+.close1{
+  background-color: #222;
+
+}
+
+.close{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:20px;
+  background-color: #222;
+}
+
+.profile{
+  width: 150px;
+  height:200px;
+  
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 30px;
+    
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+}
+.games{
+  margin-left: 6%;
+    padding: 0 16%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.games ul li a img{
+  height: 400px;
+  width: 400px;
+}
+.games ul li a:hover img {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.games ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 10px 30px;
+  
+}
+
+
+  .glow {
+    text-shadow: 0 0 2px #fff, 0 0 4px #fff, 0 0 6px #fff, 0 0 8px #ff8c00, 0 0 14px #ff8c00, 0 0 16px #ff8c00, 0 0 20px #ff8c00;
+  }
+
+.hero h1{
+    font-size:90px;
+    margin-top:5%;
+    letter-spacing: 2px;
+}
+
+div h1{
+  font-size:80px;
+    margin-top:5%;
+    letter-spacing: 2px;
+}
+
+h1{
+    font-size:70px;
+    margin-top:5%;
+    letter-spacing: 2px;
+}
+
+.hero button{
+background: #393939;
+border: 0;
+outline: none;
+padding:15px 35px;
+color:#fff;
+margin-top: 25px;
+font-weight: 500;
+font-size: large;
+letter-spacing: 1px;
+cursor: pointer;
+}
+
+.about{
+    background-color: #000;
+    color:#fff;
+    width: 80%;
+    margin: 0 8%;
+    line-break: 10px;
+    letter-spacing: 1px;
+}
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #222;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    background-color: #f5f5f5;
+    box-shadow: 0 0 5px #ff8c00;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #ff8c00;
+  }
+  

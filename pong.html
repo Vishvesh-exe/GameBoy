@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pong</title>
+    <style>
+        canvas{
+            margin-top: 1500px;
+        }
+        body{
+            background-image: url('images/pxfuel.jpg');
+        }
+        #pong{
+            border: 2px solid #FFF;
+            position: absolute;
+            margin: auto;
+            top:0;
+            left:0;
+            right:0;
+            bottom:0;
+        }
+
+        .glow1 {
+    text-shadow: 0 0 2px #fff, 0 0 4px #fff, 0 0 6px #fff, 0 0 8px #ff8c00, 0 0 14px #ff8c00, 0 0 16px #ff8c00, 0 0 20px #ff8c00;
+  }
+
+        h1{
+            text-align: center;
+            font-family: fantasy;
+            font-size: 70px;
+        }
+        button{
+            margin-top: 30%;
+            font-size: xx-large;
+            text-align: center;
+            font-family: fantasy;
+            background-color: #ff8c00;
+            text-shadow: #ff8c00;
+        }
+    </style>
+</head>
+<body>
+    <h1><span class="glow1">G A M E B O Y</span></h1>
+    
+    <canvas id="pong" width="800" height="500"></canvas>
+    <script src="pong.js"></script>
+    <center>
+        <button id="play"> Play </button>  
+    </center>
+</body>
+</html>
